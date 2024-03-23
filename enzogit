@@ -3,3 +3,20 @@
 CLOUD="aws"
 version_control="git"
 Containerization="Docker"
+
+
+#Aws project work 
+#Lanch instance 
+aws ec2 run-instances --instance-name $1 --image-id $2 --instance-type t2.micro --key-name enzoKP --subnet-id subnet-0c209ce2c69a5c309
+
+#describe instance
+aws ec2 describe-instances 
+
+#start instance 
+aws ec2 start-instances --instance-id $3
+
+#describe instance 
+aws ec2 describe-instances --instance-id $3
+
+
+
