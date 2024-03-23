@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#############################################
+#Author: Lateef
+#Date: 21, march, 2024
+#Purpose: To make this code reuseable using variable argument 
+
+set -x
+
+#To start any ec2 instance 
+aws ec2 start-instances --instance-id $1
+
+#To describe the running instance 
+aws ec2 describe-instances  --instance-id $1
+
+
+
