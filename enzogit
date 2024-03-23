@@ -1,3 +1,5 @@
 #!/bin/bash
 
-My name is enzo
+CLOUD="aws"
+version_control="git"
+Containerization="Docker"
