@@ -2,18 +2,12 @@
 
 ####################
 #This is just to generate user information
-echo "Enter Name"
 read Name
-echo "Enter your Age"
 read Age
-echo "Enter your mail to recieve code"
-read Mail 
-echo "Set password"
-read Password
+read Date 
+read Purpose
 
 echo "NAME: $Name"
 echo "Age: $Age"
-echo "Mail: $Mail"
-echo "Purpose: $Password"
-
-echo "Your mail has been verified!! WELCOME USER $Name
+echo "Date: $Date"
+echo "Purpose: $Purpose"
