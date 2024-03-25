@@ -2,12 +2,18 @@
 
 ####################
 #This is just to generate user information
+echo "Enter Name"
 read Name
+echo "Enter Age"
 read Age
-read Date 
-read Purpose
+echo "Enter Mail"
+read Mail
+echo "Enter Paasword"
+read Password
 
 echo "NAME: $Name"
 echo "Age: $Age"
-echo "Date: $Date"
-echo "Purpose: $Purpose"
+echo "Date: $Mail"
+echo "Purpose: $Password"
+
+echo "Your mail has been verified!! WELCOME USER $Name to ENZOTECTOK
