@@ -1,0 +1,13 @@
+#!/bin/bash 
+
+####################
+#This is just to generate user information
+read Name
+read Age
+read Date 
+read Purpose
+
+echo "NAME: $Name"
+echo "Age: $Age"
+echo "Date: $Date"
+echo "Purpose: $Purpose"
