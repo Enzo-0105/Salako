@@ -16,4 +16,4 @@ echo "Age: $Age"
 echo "Date: $Mail"
 echo "Purpose: $Password"
 
-echo "Your mail has been verified!! WELCOME USER $Name to ENZOTECTOK
+echo "Your mail has been verified!! WELCOME USER $Name to ENZOTECTOK"
